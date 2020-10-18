@@ -31,7 +31,7 @@ const app = express();
 const port = 3000;
 
 
-//henter controller fra sti
+//henter controller
 const userController = require('../Controller/userController')
 const protectedController = require('../Controller/protectedController')
 const loginController = require('../Controller/loginController')
